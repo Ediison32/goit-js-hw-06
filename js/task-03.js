@@ -14,23 +14,6 @@ const images = [
 ];
 
 
-/* const image = document.querySelector(".galley");
-
-console.log(image.attributes);
-console.log(image.hasAttribute(images.url)); */
-
-/* 
-const ul = document.querySelector(".gallery");
-
-const li = document.createElement("li");
-ul.appendChild(li);
-
-const img = document.createElement("img");
-img.src = images[0].url 
-img.alt = images[0].alt 
-li.appendChild(img)
-
-console.log(ul);  */
 
 const ul = document.querySelector(".gallery");
 images.forEach((x)=>{

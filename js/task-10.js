@@ -9,7 +9,7 @@ const create = document.querySelector('[data-create]');
 const destroBoxes= document.querySelector('[ data-destroy]');
 const input = document.querySelector("input[type='number']");
 const boxes = document.querySelector("#boxes");
-/* '[data-length]' */
+
 create.addEventListener("click", ()=>{
   
   console.log(":"+ input.value);
@@ -19,7 +19,7 @@ create.addEventListener("click", ()=>{
 });
 
 destroBoxes.addEventListener('click',()=>{
-  /* boxes.removeChild(boxes.firstChild); */
+  
   boxes.innerHTML = "";
   
 });
